@@ -120,7 +120,7 @@
 
 .syntaxhighlighter
 {
-	font:normal 16px/30px monospace !important;
+	font:normal 14px monospace !important;
 	background-color: #fff !important;
 	width: 98% !important;
 	padding: 6px !important;
@@ -137,8 +137,6 @@
 {
 	color: #aaa !important;
 }
-
-
 .syntaxhighlighter.printing .line .content 
 {
 	border: 0 !important;
