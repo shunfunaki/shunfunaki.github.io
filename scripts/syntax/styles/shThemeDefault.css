@@ -121,15 +121,15 @@
 .syntaxhighlighter
 {
 	font:normal 14px monospace !important;
-	background-color: #fff !important;
+	background-color: snow !important;
 	width: 98% !important;
 	padding: 6px !important;
     overflow: auto !important;
     margin-bottom: 10px !important;
-    border-top: 1px #ddd solid !important;
-    border-left: 1px #ddd solid !important;
-    border-right: 1px #ddd solid !important;
-    border-bottom: 1px #ddd solid !important;
+    border-top: 1px #ccc solid !important;
+    border-left: 1px #ccc solid !important;
+    border-right: 1px #ccc solid !important;
+    border-bottom: 1px #ccc solid !important;
 }
 
 /* Gutter line numbers */
