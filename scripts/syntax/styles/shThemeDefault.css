@@ -121,7 +121,7 @@
 .syntaxhighlighter
 {
 	font:normal 14px monospace !important;
-	background-color: snow !important;
+	background-color: #f8f8ff !important;
 	width: 98% !important;
 	padding: 6px !important;
     overflow: auto !important;
@@ -240,3 +240,13 @@
 }
 */
 /** end ugliness */
+
+.syntaxhighlighter {
+  background-color: #f8f8ff !important;
+}
+.syntaxhighlighter .line.alt1 {
+  background-color: #f8f8ff !important;
+}
+.syntaxhighlighter .line.alt2 {
+  background-color: #f8f8ff !important;
+}
