@@ -115,3 +115,129 @@
 .syntaxhighlighter .keyword {
   font-weight: bold !important;
 }
+
+
+.syntaxhighlighter
+{
+  font:normal 16px/30px monospace !important;
+	background-color: #eee !important;
+width: 98% !important;
+padding: 6px !important;
+    overflow: auto !important;
+    margin-bottom: 10px !important;
+    border-top: 1px #ddd solid !important;
+    border-left: 1px #ddd solid !important;
+    border-right: 1px #ddd solid !important;
+    border-bottom: 1px #ddd solid !important;
+}
+
+/* Gutter line numbers */
+.syntaxhighlighter .line .number
+{
+	color: #aaa !important;
+}
+
+
+.syntaxhighlighter.printing .line .content 
+{
+	border: 0 !important;
+}
+
+
+/************************************
+ * Actual syntax highlighter colors.
+ ************************************/
+.syntaxhighlighter .plain,
+.syntaxhighlighter .plain a
+{ 
+	color: #666 !important;
+}
+
+.syntaxhighlighter .comments,
+.syntaxhighlighter .comments a
+{ 
+	color: #999988 !important;
+	font-style: italic !important;
+}
+
+.syntaxhighlighter .string,
+.syntaxhighlighter .string a
+{
+	color: #D81745 !important; 
+}
+
+.syntaxhighlighter .keyword
+{ 
+	font-weight: bold !important; 
+}
+
+.syntaxhighlighter .preprocessor 
+{ 
+	color: gray !important; 
+}
+
+.syntaxhighlighter .regex
+{
+  color: #159828;
+}
+
+.syntaxhighlighter .numbers
+{
+  color:#1C9898;
+}
+
+.syntaxhighlighter .expr
+{
+  color:#D81745;
+}
+
+.syntaxhighlighter .method
+{
+  font-style: italic;
+}
+
+.syntaxhighlighter .variable 
+{ 
+	color: #177F80 !important; 
+}
+
+.syntaxhighlighter .value
+{ 
+	color: red !important; 
+}
+
+.syntaxhighlighter .functions
+{ 
+	color: #990000 !important; 
+	font-weight:bold !important;
+}
+
+.syntaxhighlighter .constants
+{ 
+	color: #177F80 !important; 
+}
+
+.syntaxhighlighter .script
+{ 
+	background-color: yellow !important;
+}
+
+.syntaxhighlighter .color1,
+.syntaxhighlighter .color1 a
+{ 
+	color: #177F80 !important; 
+}
+
+.syntaxhighlighter .color2,
+.syntaxhighlighter .color2 a
+{ 
+	color: #960B73 !important; 
+}
+
+.syntaxhighlighter .color3,
+.syntaxhighlighter .color3 a
+{ 
+	color: red !important; 
+}
+
+/** end ugliness */
